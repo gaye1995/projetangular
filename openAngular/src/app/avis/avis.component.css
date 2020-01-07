@@ -1,0 +1,18 @@
+.item-page .page-header {
+    margin: 15px !important;
+    margin-top: 15px !important;
+    margin-right: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: 15px !important;
+}
+.recherche input{
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 5px;
+    width: 200px
+}
+
+.recherche input[type="text"]:hover{
+    border-radius: 20px;
+    width: 250px
+}

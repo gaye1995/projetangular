@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            <div class="menu">
+                <li routerLink="/contacts">Accueil</li>
+                <li routerLink="/formulaire">inscrivez vous</li>
+                <li routerLink="/connaitre">Nos produits</li>
+                <li routerLink="/sommenous">Contact</li>
+                <li routerLink="/avis">Avis</li>
+                <!-- <li routerLink="/about">About</li> -->
+            </div>
+            <div class="recherche">
+                <input type="text" name="rechercher"/>
+                <input  type="submit" value="Search"/>
+            </div>
+        </header>
+
+    <div class="container">
+         <router-outlet></router-outlet>
+    </div>
+         
+</body>
+</html>
